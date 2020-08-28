@@ -40,8 +40,7 @@ spec:
                 https://github.com/pypa/get-pip/raw/eff16c878c7fd6b688b9b4c4267695cf1a0bf01b/get-pip.py
             - name: PYTHON_GET_PIP_SHA256
               value: b3153ec0cf7b7bbf9556932aa37e4981c35dc2a2c501d70d91d2795aa532be79
-          image: >-
-            registry-vpc.cn-hangzhou.aliyuncs.com/froxie/froxie_test_registry:${TAG}
+          image: ${IMAGE}
           imagePullPolicy: Always
           name: froxie-python-app-test
           ports:
