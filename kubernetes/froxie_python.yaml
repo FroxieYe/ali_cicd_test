@@ -41,7 +41,7 @@ spec:
             - name: PYTHON_GET_PIP_SHA256
               value: b3153ec0cf7b7bbf9556932aa37e4981c35dc2a2c501d70d91d2795aa532be79
           image: >-
-            registry-vpc.cn-hangzhou.aliyuncs.com/froxie/froxie_test_registry:froxie_python_test
+            registry-vpc.cn-hangzhou.aliyuncs.com/froxie/froxie_test_registry:${TAG}
           imagePullPolicy: Always
           name: froxie-python-app-test
           ports:
